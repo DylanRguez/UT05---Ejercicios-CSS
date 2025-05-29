@@ -1,0 +1,56 @@
+/* Estilos base para todos los enlaces */
+a {
+    color: red;                   /* Color rojo en estado normal */
+    text-decoration: none;        /* Sin subrayado */
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 5px 0;
+    transition: all 0.3s ease;    /* Transición suave para los cambios */
+}
+
+/* Estado hover (cursor sobre el enlace) */
+a:hover {
+    color: white;                 /* Texto blanco */
+    background-color: red;        /* Fondo rojo */
+    text-decoration: underline;   /* Subrayado */
+}
+
+/* Estado active (mientras se hace clic) */
+a:active {
+    color: orange;                /* Color naranja */
+    text-decoration: none;        /* Sin subrayado */
+}
+
+/* Estado visited (enlace visitado) */
+a:visited {
+    color: darkgreen;             /* Verde oscuro */
+    text-decoration: none;        /* Sin subrayado */
+}
+
+/* Estado focus (foco del teclado) */
+a:focus {
+    color: blue;                  /* Color azul */
+    text-decoration: underline;   /* Subrayado */
+    outline: none;                /* Elimina el contorno predeterminado */
+}
+
+/* Estilos adicionales para mejorar la presentación */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}

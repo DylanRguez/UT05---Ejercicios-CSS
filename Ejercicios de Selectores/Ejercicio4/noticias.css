@@ -1,0 +1,45 @@
+/* Estilos para los títulos de noticias */
+.noticia h2 {
+    color: darkblue;
+    font-family: Georgia, serif;
+    margin-bottom: 10px;
+}
+
+/* Primer párrafo de cada noticia en cursiva */
+.noticia p:first-of-type {
+    font-style: italic;
+    color: #555;
+}
+
+/* Enlaces dentro de noticias */
+.noticia a {
+    text-decoration: none;
+    color: #0066cc;
+    margin-right: 15px;
+    display: inline-block;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover para enlaces */
+.noticia a:hover {
+    text-decoration: underline;
+}
+
+/* Enlaces con clase .externo */
+.noticia a.externo {
+    color: red;
+}
+
+/* Estilos generales para la noticia */
+.noticia {
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.noticia p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: #CFC;
+    color: #00F;
+    font-family: Georgia, Cambria, serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: #F00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 32px;
+}
+
+h2 {
+    color: #A00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 24px;
+}
+
+.campo {
+    color: #060;
+}
+
+.sustantivo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tecnologia {
+    background-color: #000;
+    color: #FFF;
+    font-style: italic;
+}
+
+.acronimo {
+    background-color: #000;
+    color: #FFF;
+    font-style: italic;
+}

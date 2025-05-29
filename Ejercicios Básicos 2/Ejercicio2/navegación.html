@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos para enlaces</title>
+    <style>
+        /* Estilo base para la navegación */
+        nav {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 5px;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+        
+        /* Estilo para la lista de enlaces */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        nav li {
+            display: inline;
+        }
+        
+        /* Estilos base para los enlaces */
+        nav a {
+            text-decoration: none; /* Sin subrayado */
+            color: #2196F3; /* Azul por defecto */
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: color 0.3s ease; /* Transición suave para el cambio de color */
+        }
+        
+        /* Orden correcto de los pseudoselectores (LoVe HAte: Link, Visited, Hover, Active) */
+        nav a:visited {
+            color: #9C27B0; /* Morado para enlaces visitados */
+        }
+        
+        nav a:hover {
+            color: #4CAF50; /* Verde al pasar el cursor */
+        }
+        
+        nav a:active {
+            color: #F44336; /* Rojo mientras se hace clic */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

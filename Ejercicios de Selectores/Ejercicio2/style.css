@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+/* Clases de colores */
+.teal {
+    background-color: teal;
+    color: white;
+}
+
+.text {
+    background-color: white;
+    color: black;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.empty {
+    background-color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+    color: black;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+.olive {
+    background-color: olive;
+    color: white;
+}
+
+.fuchsia {
+    background-color: fuchsia;
+    color: black;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}

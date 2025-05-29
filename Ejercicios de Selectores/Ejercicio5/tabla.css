@@ -1,0 +1,42 @@
+/* Estilos generales para la tabla */
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilo para el encabezado */
+thead tr {
+    background-color: #333;
+    color: white;
+}
+
+/* Estilo para las celdas del encabezado y cuerpo */
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternar colores de filas */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+/* Efecto hover para filas */
+tbody tr:hover {
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+}
+
+/* Primera columna en negrita */
+td:first-child {
+    font-weight: bold;
+}
